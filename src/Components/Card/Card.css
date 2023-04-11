@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik+Bubbles&family=Rubik+Vinyl&display=swap');
+
+.pokemonName {
+    color: rgb(14, 14, 15);
+    font-weight: bolder;
+}
+
+.abilities {
+    color: rgb(2, 2, 2);
+    font-weight: bolder;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    background-color: rgb(172, 197, 234);
+}

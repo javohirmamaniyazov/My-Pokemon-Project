@@ -1,0 +1,99 @@
+.main {
+    display: flex;
+    background-color: #282e31;
+    justify-content: space-between;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 2em;
+  }
+  
+  .Titlesection{
+    text-align: center;
+    background-color: #282e31;
+    margin-top: 3px;
+    margin-left: 20px;
+    height: 90px;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  :root {
+    --color-1: #186cb8;
+    --color-2: #2a9a9f;
+    --color-3: #f1b211;
+    --color-4: #e83611;
+    --color-5: #f9002f;
+  }
+  
+  
+  .wrapper {
+    background: #282e31;
+    line-height: 0.8;
+    min-height: 15%;
+    display: grid;
+    place-items: center;
+    min-height: 5px;
+    padding: 0;
+    margin: 0px;
+  }
+  
+  h1 {
+    font-family: "Exo", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    width: min-content;
+    margin: 0px;
+    text-transform: uppercase;
+    background: linear-gradient(219deg,
+      var(--color-1) 19%,
+      transparent 19%,transparent 20%,
+      var(--color-2) 20%, var(--color-2)  39%,
+      transparent 39%,transparent 40%,
+      var(--color-3) 40%,var(--color-3) 59% ,
+      transparent 59%,transparent 60%,
+      var(--color-4) 60%, var(--color-4) 79%,
+      transparent 79%, transparent 80%,
+      var(--color-5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .search_Area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  .search{
+    height: 34px;
+    width: 300px;
+    border: 0px none #fff;
+    margin: 0.75px 10px 0 0px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+
+
+
+  
